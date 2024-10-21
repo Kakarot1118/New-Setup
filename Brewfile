@@ -13,6 +13,8 @@ brew "git"
 brew "go"
 # Powerful, lightweight programming language
 brew "lua"
+# Keep your Mac's application settings in sync
+brew "mackup"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Ruby version manager
