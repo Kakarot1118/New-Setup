@@ -13,8 +13,12 @@ brew "git"
 brew "go"
 # Powerful, lightweight programming language
 brew "lua"
+# Package manager for the Lua programming language
+brew "luarocks"
 # Keep your Mac's application settings in sync
 brew "mackup"
+# CLI for Node.js style checker and lint tool for Markdown files
+brew "markdownlint-cli"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Ruby version manager
@@ -35,6 +39,8 @@ brew "zsh-syntax-highlighting"
 cask "aldente"
 # Enable Windows-like alt-tab
 cask "alt-tab"
+# Jellyfin desktop client
+cask "jellyfin-media-player"
 # Keyboard customiser
 cask "karabiner-elements"
 # Find shortcuts for any installed application
