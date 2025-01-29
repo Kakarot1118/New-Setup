@@ -5,6 +5,8 @@ brew "bat"
 brew "exercism"
 # Modern, maintained replacement for ls
 brew "eza"
+# Like neofetch, but much faster because written mostly in C
+brew "fastfetch"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # Distributed revision control system
@@ -17,8 +19,12 @@ brew "lua"
 brew "luarocks"
 # Keep your Mac's application settings in sync
 brew "mackup"
+# Platform built on V8 to build network applications
+brew "node"
 # CLI for Node.js style checker and lint tool for Markdown files
 brew "markdownlint-cli"
+# Styled terminal markdown viewer
+brew "mdv"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Ruby version manager
@@ -29,6 +35,8 @@ brew "rust"
 brew "utf8proc", args: ["HEAD"]
 # Internet file retriever
 brew "wget"
+# Blazing fast terminal file manager written in Rust, based on async I/O
+brew "yazi"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # Fish-like fast/unobtrusive autosuggestions for zsh
@@ -39,6 +47,8 @@ brew "zsh-syntax-highlighting"
 cask "aldente"
 # Enable Windows-like alt-tab
 cask "alt-tab"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
 # Jellyfin desktop client
 cask "jellyfin-media-player"
 # Keyboard customiser
