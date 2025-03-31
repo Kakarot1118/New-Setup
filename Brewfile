@@ -1,8 +1,11 @@
 tap "homebrew/bundle"
+tap "jstkdng/programs"
 # Improved shell history for zsh, bash, fish and nushell
 brew "atuin"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Tiniest x86-64-linux emulator
+brew "blink"
 # Command-line tool to interact with exercism.io
 brew "exercism"
 # Modern, maintained replacement for ls
@@ -17,6 +20,12 @@ brew "gh"
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Tool to convert a Wallpaper's color scheme / palette
+brew "gowall"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
+brew "gradle"
+# Simple terminal UI for git commands
+brew "lazygit"
 # Powerful, lightweight programming language
 brew "lua"
 # Package manager for the Lua programming language
@@ -31,14 +40,14 @@ brew "markdownlint-cli"
 brew "mas"
 # Styled terminal markdown viewer
 brew "mdv"
+# Clean C library for processing UTF-8 Unicode data
+brew "utf8proc", args: ["HEAD"]
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Ruby version manager
 brew "rbenv"
 # Safe, concurrent, practical language
 brew "rust"
-# Clean C library for processing UTF-8 Unicode data
-brew "utf8proc", args: ["HEAD"]
 # Internet file retriever
 brew "wget"
 # Blazing fast terminal file manager written in Rust, based on async I/O
@@ -49,6 +58,8 @@ brew "zoxide"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# Drop in replacement for ueberzug written in C++
+brew "jstkdng/programs/ueberzugpp"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Menu bar tool to limit maximum charging percentage
@@ -57,12 +68,18 @@ cask "aldente"
 cask "alt-tab"
 # Chromium based browser
 cask "arc"
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Tool to remove unnecessary files and folders from disk
+cask "cleanmymac"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Desktop client for GitHub repositories
 cask "github"
 # Web browser
 cask "google-chrome"
+# Access, manipulate, and visualise earth science data
+cask "grads"
 # Free and open-source media player
 cask "iina"
 # Jellyfin desktop client
@@ -71,8 +88,14 @@ cask "jellyfin-media-player"
 cask "karabiner-elements"
 # Find shortcuts for any installed application
 cask "keyclu"
+# GPU-based terminal emulator
+cask "kitty"
 # Native desktop app for Messenger (formerly Facebook Messenger)
 cask "messenger"
+# VPN client
+cask "mullvadvpn"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Open source virtual/remote desktop application
@@ -81,15 +104,11 @@ cask "rustdesk"
 cask "sf-symbols"
 # Instant messaging application focusing on security
 cask "signal"
+# System monitor for the menu bar
+cask "stats"
+# Mesh VPN based on WireGuard
+cask "tailscale"
 # Binary releases of VS Code without MS branding/telemetry/licensing
 cask "vscodium"
 # YouTube music client
 cask "ytmdesktop-youtube-music"
-mas "Amphetamine", id: 937984704
-mas "Developer", id: 640199958
-mas "HP Smart", id: 1474276998
-mas "Mail+ for Gmail", id: 1216244845
-mas "Microsoft Outlook", id: 985367838
-mas "Microsoft Word", id: 462054704
-mas "Turtle Beach Audio Hub", id: 948410748
-mas "WhatsApp", id: 310633997
