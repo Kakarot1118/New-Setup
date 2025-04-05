@@ -1,4 +1,3 @@
-tap "homebrew/bundle"
 tap "jstkdng/programs"
 # Improved shell history for zsh, bash, fish and nushell
 brew "atuin"
